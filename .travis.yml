@@ -9,7 +9,7 @@ if: sender != "github-actions[bot]"
 
 branches:
   only:
-    - master
+    - main
     - /^\d+\.\d+(\.\d+)?(-\S*)?$/
 
 services: docker
@@ -25,8 +25,7 @@ install:
   - '%%PEM_DECRYPT%%'
 
 script:
-  - chef exec foodcritic .
-  - chef exec rubocop
+  - chef exec cookstyle .
   - chef exec rspec
   - chef exec kitchen test
 
