@@ -27,3 +27,4 @@ jobs:
         with:
           commit-msg-prefix: '[CHANGELOG]'
           release-version: ${{ steps.version.outputs.next-version }}
+          base-branch: 'main'
