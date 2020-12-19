@@ -3,7 +3,6 @@ template: |
 
   $CHANGES
 
-
 exclude-labels:
   - "skip-changelog"
   - "invalid"
