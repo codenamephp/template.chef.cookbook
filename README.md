@@ -13,7 +13,7 @@ To get started with the cookbook, use chef generate -I apachev2 -C CodenamePHP [
 
 ### Chef
 
-- Chef 13.0+
+- Chef 15.3+
 
 ### Cookbook Depdendencies
 
