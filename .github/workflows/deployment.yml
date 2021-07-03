@@ -71,6 +71,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           exclude_labels: "duplicate,question,invalid,wontfix,skip-changelog"
+          release_branch: "main"
 
       - name: commit updated changelog
         uses: EndBug/add-and-commit@v7
@@ -99,6 +100,7 @@ jobs:
         uses: dev-drprasad/delete-tag-and-release@v0.2.0
         with:
           tag_name: ${{ github.event.release.tag_name }}
+          delete_release: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
