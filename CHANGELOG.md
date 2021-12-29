@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump bobheadxi/deployments from 0.6.1 to 0.6.2 [\#23](https://github.com/codenamephp/template.chef.cookbook/pull/23) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump tubone24/update\_release from 1.2.0 to 1.3.1 [\#22](https://github.com/codenamephp/template.chef.cookbook/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump bobheadxi/deployments from 0.6.0 to 0.6.1 [\#19](https://github.com/codenamephp/template.chef.cookbook/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump bobheadxi/deployments from 0.5.2 to 0.6.0 [\#18](https://github.com/codenamephp/template.chef.cookbook/pull/18) ([dependabot[bot]](https://github.com/apps/dependabot))
