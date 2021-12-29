@@ -11,4 +11,3 @@ issues_url 'https://github.com/codenamephp/%%REPO_NAME%%/issues'
 source_url 'https://github.com/codenamephp/%%REPO_NAME%%'
 
 supports 'debian'
-
